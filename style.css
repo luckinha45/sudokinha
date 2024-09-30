@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pixelify+Sans&family=REM&display=swap');
+/*font-family: 'Pixelify Sans', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* font-family: 'VT323', monospace; */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: rgb(14, 5, 22);
+	color: white;
+	
+}
+
+.title {
+	text-align: center;
+	font-family: 'Pixelify Sans', cursive;
+	font-size: 5rem;
+	margin: 12px;
+}
+
+#board {
+	text-align: center;
+}
+
+.tbl_board {
+	margin: auto;
+	border: 3px solid;
+	border-collapse: collapse;
+}
+
+.tr_board {
+	border: 1px solid;
+}
+
+.td_board {
+	min-width: 50px;
+	height: 50px;
+	border: 1px solid rgb(71, 70, 70);
+	font-family: 'VT323', monospace;
+	font-size: 2.3rem;
+	cursor: default;
+	margin: 0;
+}
+
+.tbl_annot {
+	border: none;
+	width: 50px;
+	height: 50px;
+}
+
+.tbl_annot_td {
+	/* border: 1px solid rgb(71, 70, 70); */
+	font-size: 0.85rem;
+	padding: 0;
+	height: 14px;
+	min-width: 14px;
+	font-family: 'VT323', monospace;
+}
+
+.btn_annot {
+	padding: 2px;
+	border-radius: 4px;
+	background-color: purple;
+	border: 1px solid white;
+}
+
+.spn_annot {
+	position: absolute;
+	right: -10px;
+	top: -5px;
+	width: 1.6rem;
+	background-color: white;
+	border-radius: 10px;
+}
